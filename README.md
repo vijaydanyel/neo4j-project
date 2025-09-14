@@ -40,7 +40,7 @@ RETURN a.name, m.title;
 ```
 ***
 ---
-Neo4j Aura Instance Details
+##Neo4j Aura Instance Details
 
 Instance Name: Instance01
 

@@ -37,6 +37,7 @@ CREATE (d)-[:DIRECTED]->(m);
 // Query movies by actor
 MATCH (a:Actor {name:"Keanu Reeves"})-[:ACTED_IN]->(m:Movie)
 RETURN a.name, m.title;
+```
 ***
 ---
 Neo4j Aura Instance Details

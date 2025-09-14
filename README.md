@@ -31,3 +31,16 @@ CREATE (d)-[:DIRECTED]->(m);
 // Query movies by actor
 MATCH (a:Actor {name:"Keanu Reeves"})-[:ACTED_IN]->(m:Movie)
 RETURN a.name, m.title;
+## Neo4j Aura Instance
+This project runs on a Neo4j Aura Free instance.
+
+- **Instance Name:** Instance01
+- **Database ID:** 726ac3fe
+- **Database:** neo4j (Cypher 5)
+- **Nodes:** Actor, Director, Movie
+- **Relationships:** ACTED_IN, DIRECTED
+
+Example Graph Created:
+- Movie: The Matrix (1999)
+- Actor: Keanu Reeves
+- Director: Lana Wachowski

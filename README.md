@@ -40,6 +40,20 @@ RETURN a.name, m.title;
 ```
 ***
 ---
+## How to Run
+1. Go to [Neo4j Aura](https://console.neo4j.io/) and log in.
+2. If needed, use your DB ID  to confirm you have the right instance.
+3. Open Neo4j Browser and connect.
+4. Copy & paste the queries from `cypher/create_graph.cql` and `cypher/sample_queries.cql`.
+5. Run them and explore the graph.
+---
+
+
+## Output
+<img width="1640" height="781" alt="Screenshot 2025-09-14 103954" src="https://github.com/user-attachments/assets/ef55a222-412d-4ce6-a85f-ac3e11dcfca7" />
+
+
+---
 ## Neo4j Aura Instance Details
 
 - Instance Name: Instance01
@@ -59,9 +73,4 @@ RETURN a.name, m.title;
 - Actor: Keanu Reeves
 
 - Director: Lana Wachowski
----
-
-## Output
-
-<img width="1640" height="781" alt="Screenshot 2025-09-14 103954" src="https://github.com/user-attachments/assets/7afed1f2-43b0-4560-b00e-b821667556ed" />
 

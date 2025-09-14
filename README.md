@@ -59,3 +59,9 @@ RETURN a.name, m.title;
 - Actor: Keanu Reeves
 
 - Director: Lana Wachowski
+---
+
+## Output
+
+<img width="1640" height="781" alt="Screenshot 2025-09-14 103954" src="https://github.com/user-attachments/assets/7afed1f2-43b0-4560-b00e-b821667556ed" />
+

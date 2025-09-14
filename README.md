@@ -37,3 +37,6 @@ CREATE (d)-[:DIRECTED]->(m);
 // Query movies by actor
 MATCH (a:Actor {name:"Keanu Reeves"})-[:ACTED_IN]->(m:Movie)
 RETURN a.name, m.title;
+'''
+<img width="1779" height="178" alt="Screenshot 2025-06-23 111947" src="https://github.com/user-attachments/assets/fb6c69ae-6edd-4c6f-8aa3-45f4313ce334" />
+

@@ -40,22 +40,22 @@ RETURN a.name, m.title;
 ```
 ***
 ---
-##Neo4j Aura Instance Details
+## Neo4j Aura Instance Details
 
-Instance Name: Instance01
+- Instance Name: Instance01
 
-Database ID: 726ac3fe
+- Database ID: 726ac3fe
 
-Database: neo4j (Cypher 5)
+- Database: neo4j (Cypher 5)
 
-Nodes: Actor, Director, Movie
+- Nodes: Actor, Director, Movie
 
-Relationships: ACTED_IN, DIRECTED
+- Relationships: ACTED_IN, DIRECTED
 
-Graph Example Created:
+## Graph Example Created:
 
-Movie: The Matrix (1999)
+- Movie: The Matrix (1999)
 
-Actor: Keanu Reeves
+- Actor: Keanu Reeves
 
-Director: Lana Wachowski
+- Director: Lana Wachowski
